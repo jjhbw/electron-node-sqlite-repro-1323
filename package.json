@@ -1,0 +1,19 @@
+{
+  "name": "electron-sqlite-repro",
+  "version": "1.0.0",
+  "description": "Repro env for https://github.com/mapbox/node-sqlite3/issues/1323",
+  "main": "electron.js",
+  "scripts": {
+    "postinstall": "electron-builder install-app-deps",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "electron": "^8.2.5",
+    "electron-builder": "^22.6.0"
+  }
+}
