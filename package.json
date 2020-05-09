@@ -10,10 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sqlite3": "^4.2.0"
+    "sqlite3": "4.2.0"
   },
   "devDependencies": {
-    "electron": "^8.2.5",
-    "electron-builder": "^22.6.0"
+    "electron": "8.2.5",
+    "electron-builder": "22.6.0"
   }
 }
